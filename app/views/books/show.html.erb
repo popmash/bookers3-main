@@ -28,7 +28,7 @@
           
           <td id="books_<%= @book.id %>" class="favorite-btn"></td>
           <td class="comments-counter"><%= render 'book_comments/counter', book: @book %></td>
-          
+          <td><%= render'book-view', book: @book %></td>
           </tr>
           </table>
           
