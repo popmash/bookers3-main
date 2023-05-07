@@ -12,3 +12,9 @@ def create
     book_comment = @book.book_comments.find(params[:id])
     book_comment.destroy
   end
+  
+  
+  
+  
+  
+ どうしてモデルを３つ作るの？
